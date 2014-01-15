@@ -1,0 +1,48 @@
+These are the possible comands for the game:
+
+clear: abandons the current game if there happens to be one
+and keeps the current squares of the board.
+
+start: starts a current games and takes moves alternatively
+
+quit: as stated, exits the current program
+
+auto P: Stops the current game until next start command
+the input or argument must be a color or look like
+"red" or "blue".
+
+manual P: Stops the current game and does exactly what
+auto does except set the player to manual instead
+of auto.
+
+
+size N: Stops the current game and changes the size of the
+board to the designated size.
+
+move N: Stops the current games, and sets the number of
+the next move to the input. The designated number for
+Red players will be odd numbers and the designated
+number for Blue players will be even.
+
+set R C N P: This function stops the current game and basically
+sets the squares specified in the statement which
+goes as such: R = the row index number, C = the
+column index number, N = the amount of spots, and
+P = the color of the player. 
+
+dump: Prints the current board
+
+help: prints this documents
+
+undo N: The user can either choose to input N or not. If the
+Player chooses to input N, the undo function will take
+the board a certain number of undos as specified by the
+N integer, if not, it will only undo the board one
+time.
+
+========= During a Game =============
+
+R C: Once the start command is launched, one can choose the
+number of moves to be placed at the spot. Anything else
+entered or different from this structure will result in an
+error. 

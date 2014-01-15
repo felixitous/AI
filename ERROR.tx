@@ -1,0 +1,6 @@
+Not sure why a couple of tests 
+with test-jump61 are returning
+with (Program #1 terminted with
+code 1) even though manually 
+typing the commands give the
+same thing.
